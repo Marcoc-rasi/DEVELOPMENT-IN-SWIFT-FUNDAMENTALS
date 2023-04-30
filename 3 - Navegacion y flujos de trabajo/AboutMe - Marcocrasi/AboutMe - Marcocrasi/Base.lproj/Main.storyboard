@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YRK-K5-o0C">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Marcocrasi-->
+        <scene sceneID="7vU-xg-Kf1">
+            <objects>
+                <viewController id="NCD-Wz-ltg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="udS-j7-CZb" customClass="BiographyViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MarcocrasiHat" translatesAutoresizingMaskIntoConstraints="NO" id="i08-u3-IrR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4dm-Qe-ZKq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4dm-Qe-ZKq" firstAttribute="bottom" secondItem="i08-u3-IrR" secondAttribute="bottom" id="5Vf-jk-5li"/>
+                            <constraint firstItem="i08-u3-IrR" firstAttribute="centerY" secondItem="udS-j7-CZb" secondAttribute="centerY" id="Hha-4y-wh1"/>
+                            <constraint firstItem="i08-u3-IrR" firstAttribute="top" secondItem="4dm-Qe-ZKq" secondAttribute="top" id="WWC-Zj-RTu"/>
+                            <constraint firstItem="4dm-Qe-ZKq" firstAttribute="trailing" secondItem="i08-u3-IrR" secondAttribute="trailing" id="Z9o-OP-3Eh"/>
+                            <constraint firstItem="i08-u3-IrR" firstAttribute="centerX" secondItem="udS-j7-CZb" secondAttribute="centerX" id="j1F-hP-IZU"/>
+                            <constraint firstItem="i08-u3-IrR" firstAttribute="leading" secondItem="4dm-Qe-ZKq" secondAttribute="leading" id="pGV-OF-te4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Marcocrasi" image="command" catalog="system" selectedImage="command" id="mJ9-vm-d48"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nnv-6c-jyZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493" y="165"/>
+        </scene>
+        <!--Biography-->
+        <scene sceneID="bJX-Kt-SmB">
+            <objects>
+                <viewController id="z6z-Lo-4p2" customClass="BiographyViewController" customModule="AboutMe___Marcocrasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HOX-gb-RJf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="akira dvd cover" translatesAutoresizingMaskIntoConstraints="NO" id="851-tw-e1S" customClass="biograp">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vcs-hW-V1u">
+                                <rect key="frame" x="72.333333333333343" y="280.66666666666669" width="269.33333333333326" height="175"/>
+                                <color key="tintColor" red="0.83536877659999997" green="0.94151289250000003" blue="0.94328004119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">I am a mechatronic engineer
+I studied at UNAM
+I am 27 years old
+I am a man
+I was born in Mexico City 
+I have a beard
+long black hair, light brown eyes
+I am 1.72 meters tall</string>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ae0-n5-ZA8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vcs-hW-V1u" firstAttribute="centerX" secondItem="HOX-gb-RJf" secondAttribute="centerX" id="IDq-Lu-Beg"/>
+                            <constraint firstItem="Ae0-n5-ZA8" firstAttribute="bottom" secondItem="851-tw-e1S" secondAttribute="bottom" id="Le6-5w-v6s"/>
+                            <constraint firstItem="851-tw-e1S" firstAttribute="centerX" secondItem="HOX-gb-RJf" secondAttribute="centerX" id="Q5F-15-ZcT"/>
+                            <constraint firstItem="851-tw-e1S" firstAttribute="top" secondItem="Ae0-n5-ZA8" secondAttribute="top" id="eCR-4w-zHI"/>
+                            <constraint firstItem="851-tw-e1S" firstAttribute="leading" secondItem="Ae0-n5-ZA8" secondAttribute="leading" id="f6z-ix-Ov9"/>
+                            <constraint firstItem="Ae0-n5-ZA8" firstAttribute="trailing" secondItem="851-tw-e1S" secondAttribute="trailing" id="mzP-dN-DYL"/>
+                            <constraint firstItem="851-tw-e1S" firstAttribute="centerY" secondItem="HOX-gb-RJf" secondAttribute="centerY" id="s4h-Vf-BJp"/>
+                            <constraint firstItem="Vcs-hW-V1u" firstAttribute="centerY" secondItem="HOX-gb-RJf" secondAttribute="centerY" id="s7C-Za-Vh9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Biography" image="person" catalog="system" selectedImage="person.fill" id="aKZ-An-cwk" userLabel="Family"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qt4-nC-Vhb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1273.913043478261" y="164.67391304347828"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="9eV-cQ-ouK">
+            <objects>
+                <viewController id="JMH-yj-HSs" customClass="FamilyViewController" customModule="AboutMe___Marcocrasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KRH-fS-NMn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="A group of creepy evil satanic creatures with no f" translatesAutoresizingMaskIntoConstraints="NO" id="qMb-N2-dDJ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p24-Pn-koG">
+                                <rect key="frame" x="108.66666666666669" y="335.33333333333331" width="196.66666666666663" height="65.666666666666686"/>
+                                <color key="tintColor" red="0.83536877659999997" green="0.94151289250000003" blue="0.94328004119999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <string key="text">My family consists of 5 
+members a cat and 
+my girlfriend</string>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QCq-37-PDi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qMb-N2-dDJ" firstAttribute="centerY" secondItem="KRH-fS-NMn" secondAttribute="centerY" id="0zh-GS-rnn"/>
+                            <constraint firstItem="qMb-N2-dDJ" firstAttribute="top" secondItem="QCq-37-PDi" secondAttribute="top" id="CVW-o3-4Jw"/>
+                            <constraint firstItem="QCq-37-PDi" firstAttribute="trailing" secondItem="qMb-N2-dDJ" secondAttribute="trailing" id="EHC-CE-g36"/>
+                            <constraint firstItem="qMb-N2-dDJ" firstAttribute="leading" secondItem="QCq-37-PDi" secondAttribute="leading" id="TEb-fl-ZSE"/>
+                            <constraint firstItem="qMb-N2-dDJ" firstAttribute="centerX" secondItem="KRH-fS-NMn" secondAttribute="centerX" id="Uit-Bh-a10"/>
+                            <constraint firstItem="p24-Pn-koG" firstAttribute="centerY" secondItem="KRH-fS-NMn" secondAttribute="centerY" id="nHz-O5-ubU"/>
+                            <constraint firstItem="QCq-37-PDi" firstAttribute="bottom" secondItem="qMb-N2-dDJ" secondAttribute="bottom" id="trU-S0-0gJ"/>
+                            <constraint firstItem="p24-Pn-koG" firstAttribute="centerX" secondItem="KRH-fS-NMn" secondAttribute="centerX" id="xWL-w4-fYY"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="person.3" catalog="system" selectedImage="person.3.fill" id="n3E-7b-PYq" userLabel="Hobbies"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mxr-Rv-3Lf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2038" y="165"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="IaM-Zi-TiZ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="YRK-K5-o0C" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Sb-YE-leb">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" systemColor="systemPinkColor"/>
+                        <color key="selectedImageTintColor" systemColor="systemYellowColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NCD-Wz-ltg" kind="relationship" relationship="viewControllers" id="Ajc-FC-tZO"/>
+                        <segue destination="z6z-Lo-4p2" kind="relationship" relationship="viewControllers" id="bM1-t5-yYu"/>
+                        <segue destination="JMH-yj-HSs" kind="relationship" relationship="viewControllers" id="CJc-5H-33h"/>
+                        <segue destination="zPB-ez-0Lj" kind="relationship" relationship="viewControllers" id="hs8-0Q-QRH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bc6-Zc-mtI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1642" y="-683"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="sdQ-PH-bpp">
+            <objects>
+                <viewController id="zPB-ez-0Lj" customClass="HobbiesViewController" customModule="AboutMe___Marcocrasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jv0-Wm-PLC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cybernetic tools" translatesAutoresizingMaskIntoConstraints="NO" id="7cG-Pe-mRU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="687"/>
+                                <color key="backgroundColor" systemColor="labelColor"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KA-qb-FA6">
+                                <rect key="frame" x="212.66666666666663" y="302.33333333333331" width="129" height="131.33333333333331"/>
+                                <string key="text">MY
+PASSION 
+IS
+DESING 
+TECNOLOGY</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ger-IH-H8G"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7cG-Pe-mRU" firstAttribute="centerY" secondItem="Jv0-Wm-PLC" secondAttribute="centerY" id="CNt-lh-2yb"/>
+                            <constraint firstItem="2KA-qb-FA6" firstAttribute="centerY" secondItem="Jv0-Wm-PLC" secondAttribute="centerY" id="Cby-kL-0AR"/>
+                            <constraint firstItem="7cG-Pe-mRU" firstAttribute="leading" secondItem="Ger-IH-H8G" secondAttribute="leading" id="Gv0-gc-DSn"/>
+                            <constraint firstItem="7cG-Pe-mRU" firstAttribute="centerX" secondItem="Jv0-Wm-PLC" secondAttribute="centerX" id="SuN-4X-lpF"/>
+                            <constraint firstItem="7cG-Pe-mRU" firstAttribute="top" secondItem="Ger-IH-H8G" secondAttribute="top" id="ff5-ql-gnH"/>
+                            <constraint firstItem="2KA-qb-FA6" firstAttribute="centerX" secondItem="Jv0-Wm-PLC" secondAttribute="centerX" constant="70" id="rBc-Uh-j4J"/>
+                            <constraint firstItem="Ger-IH-H8G" firstAttribute="bottom" secondItem="7cG-Pe-mRU" secondAttribute="bottom" id="rIG-Jz-rcy"/>
+                            <constraint firstItem="Ger-IH-H8G" firstAttribute="trailing" secondItem="7cG-Pe-mRU" secondAttribute="trailing" id="vsh-TY-QJM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="logo.playstation" catalog="system" selectedImage="logo.xbox" id="Vub-vL-9O1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qva-ma-LXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2789.8550724637685" y="164.67391304347828"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="A group of creepy evil satanic creatures with no f" width="2048" height="3072"/>
+        <image name="MarcocrasiHat" width="262" height="392"/>
+        <image name="akira dvd cover" width="2048" height="3072"/>
+        <image name="command" catalog="system" width="128" height="115"/>
+        <image name="cybernetic tools" width="2048" height="3072"/>
+        <image name="logo.playstation" catalog="system" width="128" height="92"/>
+        <image name="logo.xbox" catalog="system" width="128" height="123"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.3" catalog="system" width="128" height="62"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

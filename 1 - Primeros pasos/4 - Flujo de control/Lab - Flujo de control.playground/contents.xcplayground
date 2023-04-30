@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='1. Ejercicio - Operadores lógicos'/>
+        <page name='2. Ejercicio - Instrucciones “if” e “if-else”'/>
+        <page name='3. Ejercicio con una app - Decisiones sobre el entrenamiento'/>
+        <page name='4. Ejercicio - Práctica booleana'/>
+        <page name='5. Ejercicio con una app - Objetivo de frecuencia cardiaca'/>
+        <page name='6. Ejercicio - Instrucciones “switch”'/>
+        <page name='7. Ejercicios con una app - Niveles deseados de frecuencia cardiaca'/>
+        <page name='8. Ejercicio - Operador ternario'/>
+        <page name='9. Ejercicio con una app - Mensajes ternarios'/>
+    </pages>
+</playground>

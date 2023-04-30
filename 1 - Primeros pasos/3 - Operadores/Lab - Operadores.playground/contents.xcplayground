@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='1. Ejercicio - Aritmética básica'/>
+        <page name='2. Ejercicio con una app - Cálculo de actividad física'/>
+        <page name='3. Ejercicio - Asignación compuesta'/>
+        <page name='4. Ejercicio con una app - Conteo'/>
+        <page name='5. Ejercicio - Orden de las operaciones'/>
+        <page name='6. Ejercicio con una app - Cálculos complejos de actividad física'/>
+        <page name='7. Ejercicio - Conversión de tipo numérico'/>
+        <page name='8. Ejercicio con una app - Conversión de tipos'/>
+    </pages>
+</playground>

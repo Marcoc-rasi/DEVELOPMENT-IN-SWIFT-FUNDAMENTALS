@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='1. Ejercicio - Constantes'/>
+        <page name='2. Ejercicio con una app - Objetivo de pasos'/>
+        <page name='3. Ejercicio - Variables'/>
+        <page name='4. Ejercicio con una app - Conteo de pasos'/>
+        <page name='5. Ejercicio - ¿Constante o variable?'/>
+        <page name='6. Ejercicio con una app - Seguimiento de actividad física. ¿Constante o variable?'/>
+        <page name='7. Ejercicio - Tipos y seguridad de tipos'/>
+        <page name='8. Ejercicio con una app - Seguimiento de distintos tipos'/>
+        <page name='9. Ejercicio - Inferencia de tipo y valores requeridos'/>
+        <page name='10. Ejercicio con una app - Porcentaje completado'/>
+    </pages>
+</playground>

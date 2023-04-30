@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='1. Ejercicio - Structs, instancias y valores predeterminados'/>
+        <page name='2. Ejercicio con una app - Seguimiento del entrenamiento'/>
+        <page name='3. Ejercicio - Inicializadores personalizados y de miembros'/>
+        <page name='4. Ejercicio con una app - Usuarios y distancia'/>
+        <page name='5. Ejercicio - Métodos'/>
+        <page name='6. Ejercicio con una app - Funciones de entrenamiento'/>
+        <page name='7. Ejercicio - Propiedades computadas y observadores de propiedades'/>
+        <page name='8. Ejercicio con una app - Tiempo por milla y felicitaciones'/>
+        <page name='9. Ejercicio - Propiedades de los tipos y métodos'/>
+        <page name='10. Ejercicio con una app - Propiedades de los tipos y métodos'/>
+    </pages>
+</playground>

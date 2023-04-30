@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' display-mode='rendered' executeOnSourceChanges='true'>
+    <pages>
+        <page name='1. Ejercicio - Nociones básicas de cadenas'/>
+        <page name='2. Ejercicio - Concatenación e interpolación'/>
+        <page name='3. Ejercicio con una app - Notificaciones'/>
+        <page name='4. Ejercicio - Similitudes y comparaciones de cadenas'/>
+        <page name='5. Ejercicio con una app - Ingreso de contraseña y búsqueda de usuarios'/>
+    </pages>
+</playground>
