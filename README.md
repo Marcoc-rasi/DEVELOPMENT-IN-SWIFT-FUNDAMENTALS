@@ -7,6 +7,14 @@ All the exercises correspond to the book "Development with Swift: fundamentals"
 
 ![1-IBBasics](https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/dc1552d9-9d31-4972-ac50-582926008792)
 
+This code represents a basic implementation of a view in an iOS application written in Swift using the UIKit framework. The class ViewController serves as the main view of the application and inherits from UIViewController. Within this view, there's a button named myButton, which is associated with a UI element in the Storyboard file.
+
+In the viewDidLoad function, which is a view's lifecycle method, the button is configured to have a title with green text color in its normal state.
+
+The buttonPressed function is an action method that gets executed when the button on the interface is tapped. When the button is pressed, this function prints "The button was pressed" to the console.
+
+In summary, this code sets up the initial configuration of a view in an iOS application. When the button is pressed, a message is printed to the console. It's a simple example of how to configure a view and respond to user interaction in an iOS application using Swift and UIKit.
+
 # InterfaceBuilderBasics
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/13da7f0e-0db2-4fef-ae10-32c5b9c29357
