@@ -19,6 +19,16 @@ In summary, this code sets up the initial configuration of a view in an iOS appl
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/13da7f0e-0db2-4fef-ae10-32c5b9c29357
 
+This code fragment is part of an iOS app development project created with Xcode. The project includes a storyboard that contains two buttons in the user interface. These buttons are designed to interact with a text label called `mainLabel`.
+
+The `ViewController` class is responsible for controlling the view and the logic associated with the user interface. In the code, two actions are declared:
+
+1. `@IBAction func changeTitle(_ sender: Any) { ... }`: This function is associated with one of the buttons in the storyboard. When that button is tapped, this function is executed and changes the text of the `mainLabel` to "!This app is great."
+
+2. `@IBAction func ReturnOriginalValues(_ sender: Any) { ... }`: Similar to the previous one, this function is associated with the other button in the storyboard. When that button is tapped, the function sets the text of the `mainLabel` back to its original state, which is a longer welcome or introductory message. This allows users to restore the original text if they have changed it previously.
+
+In summary, this code controls two buttons in the application's storyboard. Each button has an associated action that modifies the text of a text label in the user interface (`mainLabel`). These actions enable users to interact with the app to change and restore the text of the label according to their preferences.
+
 # Light
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/cca086b9-578c-47bb-88f1-723223c2a03c
