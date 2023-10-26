@@ -240,18 +240,77 @@ In summary, this code is related to an iOS application that uses buttons and a s
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/792da971-e5b3-4ca3-aa32-e72afe4d72a1
 
+The application employs a tab bar controller to navigate between different views. Each view has its own view controller, and the provided classes (`BiographyViewController`, `FamilyViewController`, and `HobbiesViewController`) serve as controllers for these views.
+
+In these views, a notification system has been implemented to alert users about events or updates. The `badgeValue` attribute of the `tabBarItem` objects associated with the tabs is used for this purpose.
+
+When a view is initially loaded (when the `viewDidLoad` method is called), a value of "!" is assigned to the `badgeValue` attribute of `tabBarItem`. This results in the display of an exclamation mark indicator in the corresponding tab on the tab bar.
+
+When the user navigates away from a view (when the view is no longer visible, controlled by the `viewDidDisappear` method), the `badgeValue` attribute is set to `nil`. This removes the indicator on the tab, signaling to the user that there are no pending events or updates in that view.
+
+In summary, this code is a vital component of the application that uses visual indicators to inform users about new events or relevant information in different sections of the "AboutMe - Marcocrasi" application.
+
 # LifeCycle-Marcocrasi
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/4a07dbf8-0b2e-4214-91ec-8280d9bad864
+
+The `Ciclo de Vida` application is an iOS app that utilizes View Controllers to manage different screens and user interactions. Each View Controller in the app follows a specific lifecycle, with functions running at various key stages. These functions print messages to the console to track the state and progress of views during their lifecycle.
+
+**View Did Load (`View Did Load`):** This is the first stage of the View Controller's lifecycle. In this phase, the `viewDidLoad` method is executed. In the "Ciclo de Vida" program, print statements like `First View Controller - View Did Load` and `Second View Controller - View Did Load` are printed in this stage. These messages indicate that the view has been loaded into memory.
+
+**View Will Appear (`View Will Appear`):** Before the view becomes visible on the screen, the `viewWillAppear` method is called. In the program, print statements like `First View Controller - View Will Appear` and `Second View Controller - View Will Appear` are printed. This occurs just before the view is displayed.
+
+**View Did Appear (`View Did Appear`):** Once the view is fully visible on the screen, the `viewDidAppear` method is executed. At this stage, print statements like `First View Controller - View Did Appear` and `Second View Controller - View Did Appear` are printed. This happens after the view has been completely displayed.
+
+**View Will Disappear (`View Will Disappear`):** When the view is about to disappear from the screen, the `viewWillDisappear` method is called. In the program, print statements like `First View Controller - View Will Disappear` and `Second View Controller - View Will Disappear` are printed. This occurs just before the view is hidden.
+
+`View Did Disappear (`View Did Disappear`):` Once the view is no longer visible on the screen, the `viewDidDisappear` method is executed. In the program, print statements like `First View Controller - View Did Disappear` and `Second View Controller - View Did Disappear` are printed. This happens after the view has been completely hidden.
+
+These console print statements are useful for tracking and understanding which stage of the View Controller's lifecycle the view is in. They are also essential for debugging and for executing specific code in response to view events in the "Ciclo de Vida" application.
 
 # OrderOfEvents
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/884ae383-8c08-46ce-bb2f-744343f3d881
 
+Certainly, here's a more technical and detailed explanation in English:
+
+The code provided is a Swift view controller designed for iOS applications. This controller, named "MiddleViewController," is responsible for tracking and logging view lifecycle events, which is essential for understanding the behavior and logic behind the user interface.
+
+In this controller, a label (identified as `label`) is used to display information related to view lifecycle events. Additionally, a variable named `eventNumber` is maintained to keep track of the number of recorded events.
+
+When the view is loaded into memory, the `viewDidLoad()` method is triggered. At this point, the event is recorded with the string "viewDidLoad" by calling the `addEvent(from:)` function with that argument. This custom function adds details about the event to the label.
+
+Just before the view is displayed on the screen, the `viewWillAppear(_:)` method is executed. Again, the `addEvent(from:)` function is used to record the event with the string "viewWillAppear."
+
+Once the view is entirely visible on the screen, the `viewDidAppear(_:)` method is triggered. This event is also logged using the `addEvent(from:)` function with the "viewDidAppear" string.
+
+When the view is about to disappear from the screen (for example, when navigating to another view), the `viewWillDisappear(_:)` method is called. Once again, the `addEvent(from:)` function is used to log the event with the "viewWillDisappear" string.
+
+Finally, after the view has completely disappeared from the screen, the `viewDidDisappear(_:)` method is executed. This event is recorded using the `addEvent(from:)` function with the "viewDidDisappear" string.
+
+The `addEvent(from:)` function is customized and responsible for updating the content of the `label`. It appends information about the event number and where the event was called from to the label. If the label is initially empty, it is set to "Nothing Happend Yet," and as events are generated, details are added to this label.
+
+This code is incredibly useful for developers as it provides a systematic way to track and understand when view lifecycle events occur. This knowledge is essential for debugging and resource management in iOS applications.
+
 # PersonalityQuest
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/191cb7ef-51a7-45d3-8d0d-00a96f4dd5ad
 
+The "PersonalityQuiz" project is an iOS application composed of three main view controllers: `IntroductionViewController`, `QuestionViewController`, and `ResultsViewController`. The primary purpose of the application is to conduct a personality quiz and determine a personality type based on the user's responses.
+
+1. **`IntroductionViewController`**: This introduction view controller doesn't contain specific logic in the provided code. However, its main function is to provide the user with an initial introduction or information before starting the quiz.
+
+2. **`QuestionViewController`**: This controller is pivotal to the application's functionality. It manages the process of presenting questions to the user and collecting their responses. The questions are stored in an array named `questions`. Each question in the array has three key properties: the question statement, the expected response type (which can be single, multiple, or ranged), and a set of possible answers associated with that question.
+
+   Depending on the question type, the user interface dynamically adjusts to offer the appropriate response options. This is achieved by hiding or displaying user interface elements like buttons, switches, or a slider.
+
+   The user selects their responses through user interface elements like buttons or switches. These responses are stored in an array named `answersChosen`. The controller proceeds to the next question when the user selects a response and updates a progress bar to indicate the quiz's progress.
+
+   Once the user has answered all the questions, the controller navigates to the results view using the `performSegue` method. The results view is located in the `ResultsViewController` controller.
+
+3. **`ResultsViewController`**: In this view, the final result of the personality quiz is calculated and displayed. The calculation is based on the user's previously selected responses. To do this, the `calculatePersonalityResult` method counts the frequency of each response type using a dictionary and determines which is the most common. This most common response is associated with an animal type, and this animal type, along with its definition, is displayed in the `resultAnswerLabel` and `resultDefinitionLabel` labels.
+
+In summary, "PersonalityQuiz" is an application that guides the user through a series of questions, collects their responses, and determines a personality type based on the most frequently chosen response. The application uses three view controllers and dynamically adjusts the user interface to match the question type. The final result is presented to the user in the results view. The provided code includes the essential logic to manage this process.
 
 
 
