@@ -5,7 +5,7 @@ All the exercises correspond to the book "Development with Swift: fundamentals"
 
 #  IBBasics
 
-![1-IBBasics](https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/dc1552d9-9d31-4972-ac50-582926008792)
+![1-IBBasics](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/5de05df9-4711-4e99-912a-0d9d7b271635)
 
 This code represents a basic implementation of a view in an iOS application written in Swift using the UIKit framework. The class ViewController serves as the main view of the application and inherits from UIViewController. Within this view, there's a button named myButton, which is associated with a UI element in the Storyboard file.
 
@@ -41,11 +41,11 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/510391
 
 # Hello
 
-![2 5-Hello](https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/81334014-bcd1-4851-88be-63deb83663f5)
+![2 5-Hello](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/65eaf4cb-42d5-4737-8b57-7c8e86bb4e90)
 
 # Pasatiempos
 
-![2 6-Pasatiempos](https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/029840c5-f1d8-45fa-9c46-f067873b079b)
+![2 6-Pasatiempos](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/fefc5ed2-8e39-4e35-9a16-ff382cc0f681)
 
 # TwoButtons
 
