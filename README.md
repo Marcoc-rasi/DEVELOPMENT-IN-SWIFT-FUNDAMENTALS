@@ -170,15 +170,15 @@ In summary, this code defines a view controller with two buttons in the user int
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/198e1580-4900-4176-ab61-4ea208b91624
 
-The properties **textFieldUserName** and **textFieldPassword** are **text fields** (**UITextField**) for entering the **username** and **password**. Additionally, the **forgotUserNameButton** and **forgotPasswordButton** are **buttons** (**UIButton**) that allow the user to recover their **username** or **password**.
+The properties `textFieldUserName` and `textFieldPassword` are `text fields` `(UITextField)` for entering the `username` and `password` Additionally, the `forgotUserNameButton` and `forgotPasswordButton` are `buttons` (`UIButton`) that allow the user to recover their `username` or `password`.
 
-Inside the **`viewDidLoad`** method, which is called when the view is loaded into memory, no additional operations are performed. However, it is common to use this method to configure the view before it appears on the screen.
+Inside the `viewDidLoad` method, which is called when the view is loaded into memory, no additional operations are performed. However, it is common to use this method to configure the view before it appears on the screen.
 
-The **`prepare(for segue: UIStoryboardSegue, sender: Any?)`** method is used to customize the destination view before a **view transition** (segue). Depending on the button pressed, this method sets the **title** of the destination view (`segue.destination.title`) based on whether the user forgot their **password**, their **username**, or simply displays the username entered in the text field.
+The `prepare(for segue: UIStoryboardSegue, sender: Any?)` method is used to customize the destination view before a `view transition` (segue). Depending on the button pressed, this method sets the `title` of the destination view (`segue.destination.title`) based on whether the user forgot their `password` their `username`, or simply displays the username entered in the text field.
 
-There are two **actions** associated with the buttons: **`forgotUserNameButtonTapped`** and **`forgotPasswordButtonTapped`**, which are triggered when the corresponding buttons are pressed. Both methods perform a **view transition** using the segue identifier **"Yellow"** and pass the respective button as the "sender."
+There are two `actions` associated with the buttons: `forgotUserNameButtonTapped` and `forgotPasswordButtonTapped`, which are triggered when the corresponding buttons are pressed. Both methods perform a `view transition` using the segue identifier `Yellow` and pass the respective button as the `sender.`
 
-In summary, this code defines a login view with fields for **username** and **password**, and buttons that allow the user to recover their username or password. It uses the **`prepare(for segue: UIStoryboardSegue, sender: Any?)`** method to customize the title of the destination view before the transition. View transitions occur when the associated buttons are pressed through segues with the identifier **"Yellow"**.
+In summary, this code defines a login view with fields for `username` and `password`, and buttons that allow the user to recover their username or password. It uses the `prepare(for segue: UIStoryboardSegue, sender: Any?)` method to customize the title of the destination view before the transition. View transitions occur when the associated buttons are pressed through segues with the identifier `Yellow`.
 
 # RainbowTabs-Marcocrasi
 
