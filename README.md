@@ -45,6 +45,34 @@ In summary, the `code` brings to life a simple `application` that empowers users
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/bdc06885-cb06-4e5e-926c-044edfa60303
 
+The code in question represents a word guessing game called "Apple pie." The application is written in Swift and consists of two main parts: a **structure** named `Game` and a **view controller** named `ViewController`.
+
+The **`Game` structure** is responsible for maintaining the game's state. It includes the following key properties:
+
+- `word`: Stores the word that the player must guess.
+- `incorrectMovesRemaining`: Represents the maximum number of allowed incorrect attempts in the game.
+- `guessedLetters`: An array that keeps track of the letters the player has guessed.
+- `formattedWord`: A computed property that displays the word with the guessed letters in place and underscores for unguessed letters.
+
+The structure also contains a method called `playerGuessed` that allows the player to guess letters and updates the game's state accordingly. If the guessed letter is not found in the word, it decrements the remaining incorrect attempts.
+
+On the other hand, the **`ViewController`** manages the user interface and game logic. Its key properties include:
+
+- `treeImageView`: An image element that displays a drawing related to the game, which varies based on the remaining incorrect attempts.
+- `correctWorldLabel`: A label that shows the word to guess with underscores for unguessed letters.
+- `scoreLabel`: A label displaying the player's current score in terms of wins and losses.
+- `letterButtons`: An array of buttons representing the alphabet's letters and used for letter guessing.
+
+The view controller also includes properties related to the game, such as the list of words to guess, the maximum allowed incorrect attempts, and tracking the player's wins and losses.
+
+In the `viewDidLoad` function, a new game is initiated by calling `newRound`. The `letterButtonPressed` function is executed when the player selects a letter, disabling the corresponding button, guessing the letter, and updating the game's state.
+
+The `newRound` function prepares a new game by selecting a word from the list of words and creating a new instance of the `Game` structure. The `updateUI` function updates the user interface with the word to guess, the score, and an image representing the remaining incorrect attempts.
+
+Finally, `updateGameState` checks the game's state. If the player has exhausted all incorrect attempts, a loss is recorded. If the player guessed the word, a win is recorded; otherwise, the user interface is updated. The `enableLetterButtons` function enables or disables the letter buttons as needed.
+
+In summary, the code represents a word guessing game where the player guesses letters to complete a word. The view controller manages the game logic and the user interface, while the `Game` structure handles the game's state.
+
 # AutoLayoutPractice
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/ce6259ee-6f8e-4e7c-8218-7bb48195927a
