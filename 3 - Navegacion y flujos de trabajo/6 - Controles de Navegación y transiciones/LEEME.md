@@ -23,7 +23,7 @@ En esta lección, aprenderás a usar transiciones para pasar de un controlador d
 
 #TráficoSegues-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/2a0173fa-0144-4476-8459-3d2e20837112
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/c5270d5e-bd5d-4407-8180-0c75bb085cbc
 
 El fragmento de código proporcionado es una implementación de un "Controlador de vista" en Swift, específicamente para aplicaciones "iOS". Este controlador de vista administra una interfaz de usuario con dos botones que activan transiciones a otras vistas. Analicémoslo en detalle:
 
@@ -41,9 +41,9 @@ En este método, verifica si el remitente (que debería ser un `UISwitch`) está
 
 En resumen, este código está relacionado con una aplicación de iOS que utiliza botones y un interruptor (`UISwitch`) para controlar las transiciones entre vistas. La lógica en `shouldPerformSegue` determina si la transición está permitida según el estado del conmutador. Los métodos `YellowButtonTapped` y `greenButtonTapped` se llaman cuando se presionan los botones amarillo y verde, respectivamente, y se basan en la lógica de `shouldPerformSegue` para decidir si se realiza la transición.
 
-# Acceso
+# Login
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/198e1580-4900-4176-ab61-4ea208b91624
+[https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/198e1580-4900-4176-ab61-4ea208b91624](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/febad89f-51a2-4ec9-8400-061e264ab6dc)
 
 Las propiedades `textFieldUserName` y `textFieldPassword` son `campos de texto` `(UITextField)` para ingresar el `nombre de usuario` y la `contraseña`. Además, `forgotUserNameButton` y `forgotPasswordButton` son `botones` (`UIButton`) que permiten al usuario recuperar su "nombre de usuario" o "contraseña".
 
