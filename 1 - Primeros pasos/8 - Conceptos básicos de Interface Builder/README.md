@@ -42,7 +42,7 @@ In summary, this code sets up the initial configuration of a view in an iOS appl
 
 # InterfaceBuilderBasics
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/13da7f0e-0db2-4fef-ae10-32c5b9c29357
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/c30b2025-3c55-4720-8ecd-0917265b8790
 
 This code fragment is part of an iOS app development project created with Xcode. The project includes a storyboard that contains two buttons in the user interface. These buttons are designed to interact with a text label called `mainLabel`.
 
