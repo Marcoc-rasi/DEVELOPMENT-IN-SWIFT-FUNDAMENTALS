@@ -11,12 +11,10 @@ Below is a summary of the content, highlighting key parts:
 4. **Control Flow**
 
 ## SDK Lessons
-5. **Xcode**
-   - How to build, run, and debug an app
-   - **Documentation**
-
-6. **Basic Concepts of Interface Builder**
-   - **What You Will Create**
+1. **Xcode**
+2. **How to build, run, and debug an app**
+3. **Documentation**
+4. **Basic Concepts of Interface Builder**
 
 ## Practical Project
 - **"Light"** is a full-screen flashlight application.
