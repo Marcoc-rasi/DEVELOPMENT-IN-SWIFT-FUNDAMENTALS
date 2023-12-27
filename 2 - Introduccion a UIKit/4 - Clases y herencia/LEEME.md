@@ -1,44 +1,34 @@
-# Repositorio de Aprendizaje de Swift: Estructuras
+# Repositorio de Aprendizaje de Swift: Clases y Herencia
 
-## Lección 3: Creación de Tipos de Datos Personalizados con Estructuras
+## Lección 4: Gestión de Datos y Funcionalidad Avanzada con Clases y Herencia
 
-Swift cuenta con muchos tipos útiles para representar datos como números, texto, colecciones y valores verdaderos o falsos. No obstante, a medida que te adentras en la creación de apps, te darás cuenta de que quieres crear tus propios tipos de datos, con propiedades y funciones que tú mismo diseñes.
+Has aprendido sobre `estructuras` como una manera de recopilar datos y funcionalidad en un tipo. Muchos lenguajes de programación también admiten otra función, llamada `clases`, que tiene una funcionalidad similar. Para casos especiales, se puede (y se debe) usar clases en vez de estructuras.
 
-## Contenido Destacado
-
-En esta commit, aprenderás a crear tipos de datos personalizados mediante la declaración de una `estructura`. Una estructura combina una o más variables en un solo tipo, permitiéndote definir funciones mediante la adición de métodos de tipo e instancia a la estructura.
+Las clases y las estructuras son muy similares, y se puede utilizar cualquiera de las dos como los fundamentos de tu programa o app. En esta commit, aprenderás las diferencias entre las clases y las estructuras y cuándo usar clases en vez de estructuras. Además, te sumergirás en el concepto de `herencia`, superclases y subclases.
 
 ## Conceptos Clave
 
 ### Qué Aprenderás
 
-- Cómo crear una estructura personalizada: Explorarás el proceso de definir un nuevo tipo de dato.
+- Las diferencias entre una estructura y una clase: Comprenderás las ventajas y desventajas de cada enfoque.
 
-- Cómo definir propiedades de una estructura: Aprenderás a agregar variables que formarán parte de tu nuevo tipo de dato.
+- Cómo definir una clase: Aprenderás a crear tu propia clase y asignarle propiedades y métodos.
 
-- Cómo agregar métodos o funciones a una estructura: Personalizarás aún más tu estructura mediante la inclusión de funciones específicas.
+- El concepto de herencia y su relevancia: Explorarás cómo compartir funcionalidad entre clases mediante la herencia.
+
+- Cómo escribir una clase que hereda de otra clase: Crearás una subclase que aprovecha la funcionalidad de una clase base.
+
+- Cómo usar una clase para administrar estados complejos en una aplicación: Descubrirás cómo las clases pueden facilitar el manejo de estados más complejos.
 
 ### Vocabulario Importante
 
-- `Propiedad Computada`: Una propiedad cuyo valor se calcula en tiempo real.
+- `Clase Base`: Una clase que se utiliza como base para otras clases.
 
-- `Función`: Un bloque de código que realiza una tarea específica.
+- `Clase`: Una estructura de programación que puede contener datos y funciones.
 
-- `Inicializador`: Un método especial que se llama al crear una instancia de una estructura.
+- `Herencia`: El proceso mediante el cual una clase adquiere propiedades y métodos de otra clase.
 
-- `Inicialización`: El proceso de crear una instancia de una estructura.
+- `Estado`: La condición actual o valores de una aplicación en un momento dado.
 
-- `Método de Instancia`: Una función que opera en instancias particulares de una estructura.
-
-- `Inicializador de Miembros`: Un inicializador que asigna valores a las propiedades de una estructura.
-
-- `Método`: Una función asociada a una estructura.
-
-- `Propiedad`: Una variable que pertenece a una estructura.
-
-- `Self`: Una referencia a la instancia actual de una estructura dentro de sus métodos.
-
-- `Estructura`: Un tipo de dato que combina variables en un solo tipo.
-
-- `Tipo`: La definición de un nuevo tipo de dato.
+- `Subcla
 

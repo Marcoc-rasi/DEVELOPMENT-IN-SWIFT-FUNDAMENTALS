@@ -1,43 +1,33 @@
-# Swift Learning Repository: Structures
+# Swift Learning Repository: Classes and Inheritance
 
-## Lesson 3: Creating Custom Data Types with Structures
+## Lesson 4: Managing Data and Advanced Functionality with Classes and Inheritance
 
-Swift has many useful types to represent data such as numbers, text, collections, and true or false values. However, as you delve into app development, you'll realize that you want to create your own data types, with properties and functions that you design yourself.
+You have learned about `structures` as a way to gather data and functionality into a type. Many programming languages also support another feature, called `classes`, which serves a similar purpose. For special cases, classes can (and should) be used instead of structures.
 
-## Highlighted Content
-
-In this commit, you will learn to create custom data types by declaring a `structure`. A structure combines one or more variables into a single type, allowing you to define functions by adding type and instance methods to the structure.
+Classes and structures are very similar, and you can use either as the foundation of your program or app. In this commit, you will learn the differences between classes and structures and when to use classes instead of structures. Additionally, you will delve into the concept of `inheritance`, superclasses, and subclasses.
 
 ## Key Concepts
 
 ### What You Will Learn
 
-- How to create a custom structure: Explore the process of defining a new data type.
+- The differences between a structure and a class: Understand the advantages and disadvantages of each approach.
 
-- How to define properties of a structure: Learn to add variables that will be part of your new data type.
+- How to define a class: Learn to create your own class and assign properties and methods to it.
 
-- How to add methods or functions to a structure: Further customize your structure by including specific functions.
+- The concept of inheritance and its relevance: Explore how to share functionality between classes through inheritance.
+
+- How to write a class that inherits from another class: Create a subclass that leverages the functionality of a base class.
+
+- How to use a class to manage complex states in an application: Discover how classes can facilitate handling more complex states.
 
 ### Important Vocabulary
 
-- `Computed Property`: A property whose value is calculated in real-time.
+- `Base Class`: A class used as a foundation for other classes.
 
-- `Function`: A block of code that performs a specific task.
+- `Class`: A programming structure that can contain data and functions.
 
-- `Initializer`: A special method called when creating an instance of a structure.
+- `Inheritance`: The process by which a class acquires properties and methods from another class.
 
-- `Initialization`: The process of creating an instance of a structure.
+- `State`: The current condition or values of an application at a given moment.
 
-- `Instance Method`: A function that operates on particular instances of a structure.
-
-- `Memberwise Initializer`: An initializer that assigns values to the properties of a structure.
-
-- `Method`: A function associated with a structure.
-
-- `Property`: A variable that belongs to a structure.
-
-- `Self`: A reference to the current instance of a structure within its methods.
-
-- `Structure`: A data type that combines variables into a single type.
-
-- `Type`: The definition of a new data type.
+- `Subclass`: A class that inherits from another class and can extend or override its functionality.
