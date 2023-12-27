@@ -14,7 +14,7 @@ Este proyecto te desafiará a realizar modificaciones de código, incluso si ere
 
 # Luz
 
-ttps://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/bdc06885-cb06-4e5e-926c-044edfa60303
+https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/bdc06885-cb06-4e5e-926c-044edfa60303
 
 El `código` en cuestión representa la implementación de una `aplicación` en el lenguaje de programación `Swift`, diseñada para la plataforma `iOS`. La aplicación consta de una única vista llamada `ViewController`. Su funcionalidad principal gira en torno a un `botón` que abarca toda la pantalla. Cuando un usuario interactúa tocando la pantalla, se produce un cambio en el color de fondo de la vista, alternando entre `blanco` y `negro`.
 
