@@ -31,3 +31,5 @@ Classes and structures are very similar, and you can use either as the foundatio
 - `State`: The current condition or values of an application at a given moment.
 
 - `Subclass`: A class that inherits from another class and can extend or override its functionality.
+
+- `Superclass`: The class from which a subclass inherits functionality.
