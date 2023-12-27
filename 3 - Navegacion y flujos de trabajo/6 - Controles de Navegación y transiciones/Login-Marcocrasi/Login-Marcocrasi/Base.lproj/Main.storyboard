@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VlE-2q-6ED">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login -->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Login_Marcocrasi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nombre de Usuario" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XCS-6r-odf">
+                                <rect key="frame" x="20" y="201" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Contraseña" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Wv-E7-dkg">
+                                <rect key="frame" x="20" y="260" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hd5-Kf-LZI">
+                                <rect key="frame" x="127.66666666666667" y="344" width="158.66666666666657" height="34.333333333333314"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" cornerStyle="small">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Iniciar">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name="Copperplate"/>
+                                                <font key="NSOriginalFont" size="16" name="AppleColorEmoji"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content=" ">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name="Copperplate"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                        <fragment content="Sesión">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name="Copperplate"/>
+                                                <font key="NSOriginalFont" size="16" name="AppleColorEmoji"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="ZKD-ku-6CV" kind="show" id="3Ot-zq-rW3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEQ-rd-sQN">
+                                <rect key="frame" x="56.333333333333343" y="398.33333333333331" width="301.66666666666663" height="33.333333333333314"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Olvidé mi nombre de usuario">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name="Copperplate"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="forgotUserNameButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mvb-ag-mqh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rPe-m0-31z">
+                                <rect key="frame" x="91.666666666666686" y="451.66666666666669" width="231" height="33.333333333333314"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Olvidé mi contraseña">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name="Copperplate"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="forgotPasswordButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="okK-yW-COZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                        <constraints>
+                            <constraint firstItem="7Wv-E7-dkg" firstAttribute="top" secondItem="XCS-6r-odf" secondAttribute="bottom" constant="25" id="0cN-Gf-QvF"/>
+                            <constraint firstItem="rPe-m0-31z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0le-WN-oxQ"/>
+                            <constraint firstItem="XCS-6r-odf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="13c-3V-yEf"/>
+                            <constraint firstItem="7Wv-E7-dkg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1t3-WN-VFR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XCS-6r-odf" secondAttribute="trailing" constant="20" id="6Wj-wS-Psf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Wv-E7-dkg" secondAttribute="trailing" constant="20" id="Fvv-r6-maz"/>
+                            <constraint firstItem="rPe-m0-31z" firstAttribute="top" secondItem="iEQ-rd-sQN" secondAttribute="bottom" constant="20" id="Oha-ck-JDS"/>
+                            <constraint firstItem="iEQ-rd-sQN" firstAttribute="top" secondItem="Hd5-Kf-LZI" secondAttribute="bottom" constant="20" id="SzU-pE-AAA"/>
+                            <constraint firstItem="7Wv-E7-dkg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XQ1-Nt-A90"/>
+                            <constraint firstItem="Hd5-Kf-LZI" firstAttribute="top" secondItem="7Wv-E7-dkg" secondAttribute="bottom" constant="50" id="flC-fr-P6u"/>
+                            <constraint firstItem="Hd5-Kf-LZI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lsQ-1i-Sze"/>
+                            <constraint firstItem="XCS-6r-odf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="nAU-vB-6Lt"/>
+                            <constraint firstItem="iEQ-rd-sQN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xPj-js-1Rt"/>
+                            <constraint firstItem="XCS-6r-odf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-150" id="ywz-Vi-qfn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Login " largeTitleDisplayMode="always" id="zRO-l3-49n"/>
+                    <connections>
+                        <outlet property="forgotPasswordButton" destination="rPe-m0-31z" id="hnH-fj-uhy"/>
+                        <outlet property="forgotUserNameButton" destination="iEQ-rd-sQN" id="kbg-Y9-jl2"/>
+                        <outlet property="textFieldPassword" destination="7Wv-E7-dkg" id="BBh-om-qVl"/>
+                        <outlet property="textFieldUserName" destination="XCS-6r-odf" id="owC-ac-aYz"/>
+                        <segue destination="ZKD-ku-6CV" kind="show" identifier="Yellow" id="oSI-ia-Srj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.81159420289862" y="4.8913043478260869"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Vy-Hx-jvx">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="ZKD-ku-6CV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EhI-Ju-W6n">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Z38-Bx-cwM"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WZ9-P9-RdN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u73-Qq-JR1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1705.7971014492755" y="4.8913043478260869"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JdM-AD-Fwg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAK-Y9-KRg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VlE-2q-6ED" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="FIN-IF-cuE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6Uh-fs-cT5"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="228" y="5"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="oSI-ia-Srj"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
