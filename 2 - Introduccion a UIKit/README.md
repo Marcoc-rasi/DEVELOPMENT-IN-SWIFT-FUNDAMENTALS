@@ -35,3 +35,7 @@ In this commit, you will take it a step further. You will learn about `structure
 ## Project to Develop
 
 **Apple Pie**: A simple word guessing game. The user must guess a word, letter by letter, before all the apples fall from the apple tree. If there are apples left, the user wins and can enjoy delicious apple pie.
+
+# Apple Pie
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/67ae0c26-d84f-4254-b984-9915da5cc60f
