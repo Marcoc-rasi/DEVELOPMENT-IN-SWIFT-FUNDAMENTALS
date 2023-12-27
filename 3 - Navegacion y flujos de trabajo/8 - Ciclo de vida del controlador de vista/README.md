@@ -14,7 +14,7 @@ In this lesson, we'll delve more into the view controller lifecycle so you can u
 
 # LifeCycle-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/4a07dbf8-0b2e-4214-91ec-8280d9bad864
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/bf699c6a-5454-4e70-bbd9-97ea7846dfbc
 
 The `Ciclo de Vida` application is an iOS app that utilizes View Controllers to manage different screens and user interactions. Each View Controller in the app follows a specific lifecycle, with functions running at various key stages. These functions print messages to the console to track the state and progress of views during their lifecycle.
 
@@ -32,9 +32,7 @@ These console print statements are useful for tracking and understanding which s
 
 # OrderOfEvents
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/884ae383-8c08-46ce-bb2f-744343f3d881
-
-Certainly, here's a more technical and detailed explanation in English:
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/071c4140-7bc6-458c-ad7f-52c94921818f
 
 The code provided is a Swift view controller designed for iOS applications. This controller, named "MiddleViewController," is responsible for tracking and logging view lifecycle events, which is essential for understanding the behavior and logic behind the user interface.
 
