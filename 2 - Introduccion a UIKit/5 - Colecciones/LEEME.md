@@ -1,69 +1,24 @@
-# Repositorio de Aprendizaje de Swift: Clases y Herencia
+# Repositorio de Aprendizaje de Swift: Colecciones
 
-## Lección 4: Gestión de Datos y Funcionalidad Avanzada con Clases y Herencia
+## Lección 5: Trabajo Eficiente con Conjuntos de Datos en Swift
 
-Has aprendido sobre `estructuras` como una manera de recopilar datos y funcionalidad en un tipo. Muchos lenguajes de programación también admiten otra función, llamada `clases`, que tiene una funcionalidad similar. Para casos especiales, se puede (y se debe) usar clases en vez de estructuras.
-
-Las clases y las estructuras son muy similares, y se puede utilizar cualquiera de las dos como los fundamentos de tu programa o app. En esta commit, aprenderás las diferencias entre las clases y las estructuras y cuándo usar clases en vez de estructuras. Además, te sumergirás en el concepto de `herencia`, superclases y subclases.
+Hasta ahora en este **commit**, has aprendido a trabajar con elementos individuales, ya sean constantes o variables. Pero, a veces, encontrarás que tiene más sentido trabajar con un grupo de objetos como un todo. Una `colección` te permite hacer referencia a varios objetos a la vez. Por ejemplo, podrías manejar una docena de huevos usando una constante en lugar de administrar doce constantes separadas. En esta **commit**, aprenderás acerca de los distintos tipos de colecciones disponibles en Swift y cómo elegir el apropiado para tu programa.
 
 ## Conceptos Clave
 
 ### Qué Aprenderás
 
-- Las diferencias entre una estructura y una clase: Comprenderás las ventajas y desventajas de cada enfoque.
+- Cómo declarar colecciones de constantes y variables: Explorarás la creación de conjuntos de datos en Swift.
 
-- Cómo definir una clase: Aprenderás a crear tu propia clase y asignarle propiedades y métodos.
+- Cómo agregar y eliminar valores de arreglos y diccionarios: Aprenderás a manipular dinámicamente los datos en tus colecciones.
 
-- El concepto de herencia y su relevancia: Explorarás cómo compartir funcionalidad entre clases mediante la herencia.
-
-- Cómo escribir una clase que hereda de otra clase: Crearás una subclase que aprovecha la funcionalidad de una clase base.
-
-- Cómo usar una clase para administrar estados complejos en una aplicación: Descubrirás cómo las clases pueden facilitar el manejo de estados más complejos.
+- Cómo elegir el tipo de colección apropiado: Comprenderás las diferencias entre `arreglos` y `diccionarios` y cuándo usar cada uno.
 
 ### Vocabulario Importante
 
-- `Clase Base`: Una clase que se utiliza como base para otras clases.
+- `Arreglo`: Una colección ordenada de elementos.
 
-- `Clase`: Una estructura de programación que puede contener datos y funciones.
+- `Diccionario`: Una colección no ordenada de pares clave-valor.
 
-- `Herencia`: El proceso mediante el cual una clase adquiere propiedades y métodos de otra clase.
-
-- `Estado`: La condición actual o valores de una aplicación en un momento dado.
-
-# Repositorio de Aprendizaje de Swift: Clases y Herencia
-
-## Lección 4: Gestión de Datos y Funcionalidad Avanzada con Clases y Herencia
-
-Has aprendido sobre `estructuras` como una manera de recopilar datos y funcionalidad en un tipo. Muchos lenguajes de programación también admiten otra función, llamada `clases`, que tiene una funcionalidad similar. Para casos especiales, se puede (y se debe) usar clases en vez de estructuras.
-
-Las clases y las estructuras son muy similares, y se puede utilizar cualquiera de las dos como los fundamentos de tu programa o app. En esta commit, aprenderás las diferencias entre las clases y las estructuras y cuándo usar clases en vez de estructuras. Además, te sumergirás en el concepto de `herencia`, superclases y subclases.
-
-## Conceptos Clave
-
-### Qué Aprenderás
-
-- Las diferencias entre una estructura y una clase: Comprenderás las ventajas y desventajas de cada enfoque.
-
-- Cómo definir una clase: Aprenderás a crear tu propia clase y asignarle propiedades y métodos.
-
-- El concepto de herencia y su relevancia: Explorarás cómo compartir funcionalidad entre clases mediante la herencia.
-
-- Cómo escribir una clase que hereda de otra clase: Crearás una subclase que aprovecha la funcionalidad de una clase base.
-
-- Cómo usar una clase para administrar estados complejos en una aplicación: Descubrirás cómo las clases pueden facilitar el manejo de estados más complejos.
-
-### Vocabulario Importante
-
-- `Clase Base`: Una clase que se utiliza como base para otras clases.
-
-- `Clase`: Una estructura de programación que puede contener datos y funciones.
-
-- `Herencia`: El proceso mediante el cual una clase adquiere propiedades y métodos de otra clase.
-
-- `Estado`: La condición actual o valores de una aplicación en un momento dado.
-
-- `Subclase`: Una clase que hereda propiedades y métodos de una clase base.
-
-- `Superclase`: La clase de la cual una subclase hereda funcionalidad.
 
 
