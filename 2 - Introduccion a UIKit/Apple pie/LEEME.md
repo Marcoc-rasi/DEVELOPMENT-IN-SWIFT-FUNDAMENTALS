@@ -6,7 +6,7 @@ Como programador principiante, este proyecto puede parecer desafiante, pero recu
 
 # Apple Pie
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/bdc06885-cb06-4e5e-926c-044edfa60303
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/67ae0c26-d84f-4254-b984-9915da5cc60f
 
 El código en cuestión representa un juego de adivinanzas de palabras llamado "Tarta de manzana". La aplicación está escrita en Swift y consta de dos partes principales: una **estructura** llamada `Game` y un **controlador de vista** llamado `ViewController`.
 
