@@ -23,7 +23,7 @@ In this lesson, you'll learn how to use transitions to move from one view contro
 
 # TrafficSegues-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/2a0173fa-0144-4476-8459-3d2e20837112
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/e48aaf96-74e7-420e-a0fc-97816e8733d9
 
 The provided code snippet is an implementation of a `View Controller` in Swift, specifically for `iOS` applications. This view controller manages a user interface with two buttons that trigger transitions to other views. Let's analyze it in detail:
 
@@ -43,7 +43,7 @@ In summary, this code is related to an iOS application that uses buttons and a s
 
 # Login
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/198e1580-4900-4176-ab61-4ea208b91624
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/febad89f-51a2-4ec9-8400-061e264ab6dc
 
 The properties `textFieldUserName` and `textFieldPassword` are `text fields` `(UITextField)` for entering the `username` and `password` Additionally, the `forgotUserNameButton` and `forgotPasswordButton` are `buttons` (`UIButton`) that allow the user to recover their `username` or `password`.
 
