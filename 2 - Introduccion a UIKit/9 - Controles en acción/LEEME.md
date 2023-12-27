@@ -24,7 +24,7 @@ En esta lección, utilizarás Interface Builder para agregar botones, interrupto
 
 # Dos botones
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/9d2f4309-76ea-4ff7-be21-6b2fec206186
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/3d4617a1-c9ca-426c-bb06-be7d57a3556e
 
 1. Declaración de Clase:
     - `class ViewController: UIViewController`: Esto declara una clase llamada `ViewController` que hereda de `UIViewController`. En iOS, los controladores de vista son esenciales para administrar las vistas y la lógica asociada.
@@ -46,7 +46,7 @@ En resumen, este código define un controlador de vista con dos botones en la in
 
 # Controles_de_entrada_comunes
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/a4ceeeb3-f1f0-4939-914e-1ed323a0e035
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/257c5b70-7ed1-4cf1-9687-707d7137c964
 
 Dentro de esta clase `ViewController`, se declaran tres propiedades y se conectan a los elementos de la interfaz de usuario mediante la funcionalidad de arrastrar y soltar en Xcode, utilizando el atributo `@IBOutlet`:
 - `toggle`: es una instancia de un objeto `UISwitch`, que representa un **interruptor** en la interfaz de usuario.
