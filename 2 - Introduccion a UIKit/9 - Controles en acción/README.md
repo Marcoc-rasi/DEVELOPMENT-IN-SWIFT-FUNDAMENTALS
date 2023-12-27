@@ -46,7 +46,7 @@ In summary, this code defines a view controller with two buttons in the user int
 
 #  Common_Input_Controls
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/86a9e2e9-62b0-4350-967e-ecece4a58829
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/6eccb425-4638-43ad-aeae-142edec87624
 
 Within this `ViewController` class, three properties are declared and connected to user interface elements through the drag-and-drop functionality in Xcode, using the `@IBOutlet` attribute:
 - `toggle`: It's an instance of a `UISwitch` object, representing a **switch** in the user interface.
