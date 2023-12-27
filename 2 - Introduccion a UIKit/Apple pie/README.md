@@ -6,7 +6,7 @@ As a beginner programmer, this project may seem challenging, but remember that t
 
 # Apple Pie
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/bdc06885-cb06-4e5e-926c-044edfa60303
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/67ae0c26-d84f-4254-b984-9915da5cc60f
 
 The code in question represents a word guessing game called "Apple Pie." The app is written in Swift and consists of two main parts: a **structure** called `Game` and a **view controller** called `ViewController`.
 
