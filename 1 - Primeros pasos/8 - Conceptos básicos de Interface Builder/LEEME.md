@@ -30,7 +30,7 @@ Aprenderás:
 
 # IBBásicos
 
-![1-IBBasics](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/5de05df9-4711-4e99-912a-0d9d7b271635)
+[![1-IBBasics](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/5de05df9-4711-4e99-912a-0d9d7b271635)](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/865b21b2-c51b-46f9-9baf-6a6e5ffebcca)
 
 Este código representa una implementación básica de una vista en una aplicación de iOS escrita en Swift utilizando el marco UIKit. La clase ViewController sirve como vista principal de la aplicación y hereda de UIViewController. Dentro de esta vista, hay un botón llamado myButton, que está asociado con un elemento de la interfaz de usuario en el archivo Storyboard.
 
