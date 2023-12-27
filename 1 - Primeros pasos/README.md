@@ -21,3 +21,9 @@ Below is a summary of the content, highlighting key parts:
   - The user can tap the screen to toggle the color between white and black.
 
 With the content in this folder, you will be ready to take your first steps in mobile app development using Swift and Xcode. Best of luck in your learning!
+
+## Light
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/e0f1b795-fe5b-4407-b1f8-b8b2481c8c38
+
+
