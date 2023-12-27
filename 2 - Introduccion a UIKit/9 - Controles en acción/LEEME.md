@@ -46,7 +46,7 @@ En resumen, este código define un controlador de vista con dos botones en la in
 
 # Controles_de_entrada_comunes
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/257c5b70-7ed1-4cf1-9687-707d7137c964
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/cebeaf0f-a1e3-4cc3-9864-04c2a882a979
 
 Dentro de esta clase `ViewController`, se declaran tres propiedades y se conectan a los elementos de la interfaz de usuario mediante la funcionalidad de arrastrar y soltar en Xcode, utilizando el atributo `@IBOutlet`:
 - `toggle`: es una instancia de un objeto `UISwitch`, que representa un **interruptor** en la interfaz de usuario.
