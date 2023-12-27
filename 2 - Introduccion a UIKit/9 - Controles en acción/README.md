@@ -24,7 +24,7 @@ In this lesson, you will use Interface Builder to add buttons, switches, and sli
 
 # TwoButtons
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/9d2f4309-76ea-4ff7-be21-6b2fec206186
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/3120568c-ffdd-4d52-a16d-4a1d306cab1f
 
 1. Class Declaration:
    - `class ViewController: UIViewController`: This declares a class called `ViewController` that inherits from `UIViewController`. In iOS, view controllers are essential for managing views and associated logic.
@@ -46,7 +46,7 @@ In summary, this code defines a view controller with two buttons in the user int
 
 #  Common_Input_Controls
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/a4ceeeb3-f1f0-4939-914e-1ed323a0e035
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/86a9e2e9-62b0-4350-967e-ecece4a58829
 
 Within this `ViewController` class, three properties are declared and connected to user interface elements through the drag-and-drop functionality in Xcode, using the `@IBOutlet` attribute:
 - `toggle`: It's an instance of a `UISwitch` object, representing a **switch** in the user interface.
