@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet var letterButtons: [UIButton]!
     
     
-    var listOfWords: [String] = ["corsario a","swift","glosario","incandecente","insecto","programa"]
+    var listOfWords: [String] = ["corsario","swift","glosario","incandecente","insecto","programa"]
 
     let incorrectMovesAllowed: Int = 7
 
