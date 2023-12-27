@@ -14,7 +14,7 @@ En esta lección se explicará más acerca del ciclo de vida del controlador de 
 
 # LifeCycle-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/4a07dbf8-0b2e-4214-91ec-8280d9bad864
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/9836663f-f686-40fb-8a63-2b551d603efb
 
 La aplicación `Ciclo de Vida` es una aplicación de iOS que utiliza View Controllers para administrar diferentes pantallas e interacciones del usuario. Cada View Controller de la aplicación sigue un ciclo de vida específico, con funciones que se ejecutan en varias etapas clave. Estas funciones imprimen mensajes en la consola para rastrear el estado y el progreso de las vistas durante su ciclo de vida.
 
@@ -32,7 +32,7 @@ Estas declaraciones impresas de la consola son útiles para rastrear y comprende
 
 # Orden de eventos
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/884ae383-8c08-46ce-bb2f-744343f3d881
+[https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/884ae383-8c08-46ce-bb2f-744343f3d881](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/071c4140-7bc6-458c-ad7f-52c94921818f)
 
 Por cierto, aquí tienes una explicación más técnica y detallada en inglés:
 
