@@ -36,3 +36,6 @@ En esta commit, darás un paso más allá. Aprenderás acerca de `estructuras`, 
 
 **Apple Pie**: Un sencillo juego de adivinación de palabras. El usuario debe adivinar una palabra, letra por letra, antes de que todas las manzanas caigan del manzano. Si quedan manzanas, el usuario gana y puede disfrutar de un delicioso pastel de manzana.
 
+# Apple Pie
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/67ae0c26-d84f-4254-b984-9915da5cc60f
