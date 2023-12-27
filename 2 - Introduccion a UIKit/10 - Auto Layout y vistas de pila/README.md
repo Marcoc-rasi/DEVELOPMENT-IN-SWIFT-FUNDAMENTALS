@@ -26,7 +26,7 @@ In this lesson, you will learn the basics of Auto Layout to create user interfac
 
 # AutoLayoutPractice
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/ce6259ee-6f8e-4e7c-8218-7bb48195927a
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/f7fe45c6-e9e7-4f26-868e-20adcf2cdd24
 
 To create a user interface in iOS that contains five labels stacked vertically, we'll be using Auto Layout and Constraints to ensure that this arrangement is compatible in both portrait and landscape modes. Here are the key steps:
 
@@ -50,7 +50,7 @@ Be sure to check the constraints in the Interface Builder and resolve any confli
 
 # Calculadora
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/65ec9a58-0946-48fa-8ef7-c67e9cede7ca
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/97b4ef62-34ab-4b00-a5db-af1c586b9d94
 
 1. `Designing the Calculator`: Start by designing the calculator view. You can use the Interface Builder to add visual elements like buttons and labels for digits and operators. Organize these elements visually to mimic the iPhone calculator app.
 
