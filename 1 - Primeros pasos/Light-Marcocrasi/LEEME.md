@@ -14,6 +14,8 @@ Este proyecto te desafiará a realizar modificaciones de código, incluso si ere
 
 # Luz
 
+![1-IBBasics](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/5de05df9-4711-4e99-912a-0d9d7b271635)
+
 El `código` en cuestión representa la implementación de una `aplicación` en el lenguaje de programación `Swift`, diseñada para la plataforma `iOS`. La aplicación consta de una única vista llamada `ViewController`. Su funcionalidad principal gira en torno a un `botón` que abarca toda la pantalla. Cuando un usuario interactúa tocando la pantalla, se produce un cambio en el color de fondo de la vista, alternando entre `blanco` y `negro`.
 
 En términos técnicos, el `código` utiliza una variable llamada `lightOn` que actúa como un interruptor. Inicialmente, esta variable se establece en `true`, lo que indica que la luz está encendida y, como resultado, el fondo de la pantalla es `blanco`. Cada vez que un usuario interactúa con la aplicación, en este caso tocando el botón, el valor de `lightOn` se altera. Si anteriormente era `true`, cambia a `false`, y si era `false`, vuelve a ser `true`.

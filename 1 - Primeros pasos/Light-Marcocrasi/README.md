@@ -14,6 +14,8 @@ This project will challenge you to make code modifications, even if you are rela
 
 # Light
 
+![1-IBBasics](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/5de05df9-4711-4e99-912a-0d9d7b271635)
+
 The `code` in question represents the implementation of an `application` in the `Swift` programming language, designed for the `iOS` platform. The application consists of a single view called `ViewController`. Its main functionality revolves around a `button` that spans the entire screen. When a user interacts by tapping the screen, a change occurs in the background color of the view, alternating between `white` and `black`.
 
 In technical terms, the `code` uses a variable named `lightOn` that acts as a switch. Initially, this variable is set to `true`, indicating that the light is on, and as a result, the screen's background is `white`. Whenever a user interacts with the application, in this case by tapping the button, the value of `lightOn` is toggled. If it was previously `true`, it changes to `false`, and if it was `false`, it toggles back to `true`.
