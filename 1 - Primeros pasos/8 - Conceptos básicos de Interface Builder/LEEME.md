@@ -42,7 +42,7 @@ En resumen, este código configura la configuración inicial de una vista en una
 
 # Conceptos básicos de InterfaceBuilder
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/13da7f0e-0db2-4fef-ae10-32c5b9c29357
+[https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/13da7f0e-0db2-4fef-ae10-32c5b9c29357](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/c30b2025-3c55-4720-8ecd-0917265b8790)
 
 Este fragmento de código es parte de un proyecto de desarrollo de aplicaciones para iOS creado con Xcode. El proyecto incluye un guión gráfico que contiene dos botones en la interfaz de usuario. Estos botones están diseñados para interactuar con una etiqueta de texto llamada "mainLabel".
 
