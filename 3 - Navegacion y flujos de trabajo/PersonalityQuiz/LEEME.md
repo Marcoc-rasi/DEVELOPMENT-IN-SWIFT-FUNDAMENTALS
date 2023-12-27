@@ -13,7 +13,7 @@ Este proyecto guiado utilizará el tema de cuestionario: “¿Qué animal eres?�
 
 # Personality Quizz
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/191cb7ef-51a7-45d3-8d0d-00a96f4dd5ad
+[https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/191cb7ef-51a7-45d3-8d0d-00a96f4dd5ad](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/c9618646-0d73-4582-9498-704f9d8c8967)
 
 El proyecto "PersonalityQuiz" es una aplicación de iOS compuesta por tres controladores de vista principales: `IntroductionViewController`, `QuestionViewController` y `ResultsViewController`. El objetivo principal de la aplicación es realizar un cuestionario de personalidad y determinar un tipo de personalidad en función de las respuestas del usuario.
 
