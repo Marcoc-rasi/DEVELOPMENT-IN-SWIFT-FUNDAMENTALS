@@ -25,3 +25,8 @@ Al final de esta unidad, te sentirás cómodo utilizando Interface Builder y sto
 
 Crearás una aplicación llamada "Quiz", una sencilla app que guía al usuario a través de un cuestionario de personalidad y muestra los resultados.
 
+## Personality Quizz
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/41b2e884-e013-4e62-8324-4aa9da86413d
+
+
