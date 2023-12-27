@@ -26,7 +26,7 @@ En esta lección, aprenderás los fundamentos de Auto Layout para crear interfac
 
 # Autoayout Practice
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/ce6259ee-6f8e-4e7c-8218-7bb48195927a
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/32313ae3-4398-4f27-b09b-253cd686d675
 
 Para crear una interfaz de usuario en iOS que contenga cinco etiquetas apiladas verticalmente, usaremos Diseño automático y Restricciones para garantizar que esta disposición sea compatible tanto en modo vertical como horizontal. Estos son los pasos clave:
 
@@ -50,7 +50,7 @@ Asegúrese de verificar las restricciones en Interface Builder y resolver cualqu
 
 # Calculadora
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/65ec9a58-0946-48fa-8ef7-c67e9cede7ca
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/7e80f2c6-5d23-47e7-ab71-3bc7f4b8a775
 
 1. `Diseñar la calculadora`: comience diseñando la vista de la calculadora. Puede utilizar Interface Builder para agregar elementos visuales como botones y etiquetas para dígitos y operadores. Organice estos elementos visualmente para imitar la aplicación de calculadora del iPhone.
 
