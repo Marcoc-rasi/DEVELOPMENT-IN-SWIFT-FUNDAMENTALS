@@ -19,7 +19,7 @@ En esta lección, usarás los controladores de barra de pestañas para organizar
 
 # RainbowTabs-Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/397fd2ad-3869-4799-821b-5782e0b17582
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/fb73cd32-919c-46fa-a3ca-9276558cb286
 
 La aplicación es un controlador de barra de pestañas que utiliza varios controladores de vista integrados para administrar diferentes vistas. Cada uno de estos controladores de vista personaliza el comportamiento y la apariencia de su vista asociada. La aplicación consta de al menos cinco de estos controladores de vista, cada uno con un nombre temático y un color. Aquí hay una descripción detallada de los controladores de vista:
 
@@ -37,7 +37,7 @@ En resumen, estos controladores de vista personalizan el comportamiento de vista
 
 #RainbowTabs-Marcocrasi-Reto
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/b437ca9f-024c-4750-bbfd-05708991db92
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/a49572e8-8a3f-46d9-8510-dbc405593d23
 
 El código corresponde a una serie de clases de controlador de vista en una aplicación de iOS. Estos controladores de vista se utilizan dentro del contexto de un "controlador de barra de pestañas". El controlador de la barra de pestañas es responsable de administrar múltiples vistas y permite al usuario cambiar entre ellas usando una "barra de pestañas" en la parte inferior de la pantalla.
 
@@ -55,7 +55,7 @@ En resumen, estos controladores de vista son parte de un controlador de barra de
 
 #Acerca de mí - Marcocrasi
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/792da971-e5b3-4ca3-aa32-e72afe4d72a1
+[https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/792da971-e5b3-4ca3-aa32-e72afe4d72a1](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/6db26ad4-5cbf-470e-827d-fe4f037408f4)
 
 La aplicación emplea un controlador de barra de pestañas para navegar entre diferentes vistas. Cada vista tiene su propio controlador de vista y las clases proporcionadas (`BiographyViewController`, `FamilyViewController` y `HobbiesViewController`) sirven como controladores para estas vistas.
 
