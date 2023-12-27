@@ -30,5 +30,7 @@ Las clases y las estructuras son muy similares, y se puede utilizar cualquiera d
 
 - `Estado`: La condición actual o valores de una aplicación en un momento dado.
 
-- `Subcla
+- `Subclase`: Una clase que hereda propiedades y métodos de una clase base.
+
+- `Superclase`: La clase de la cual una subclase hereda funcionalidad.
 
