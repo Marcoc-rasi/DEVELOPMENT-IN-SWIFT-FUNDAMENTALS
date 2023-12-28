@@ -5,17 +5,17 @@ All the exercises correspond to the book "Development with Swift: fundamentals"
 
 # FEATURED APPS
 
-# Light
-
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/138f1d1a-3cad-421a-9052-ed96f5f5c3d8
-
 # ApplePie
 
 [https://github.com/Marcoc-rasi/DEVELOPMENT-WHIT-SWIFT-FUNDAMENTALS/assets/51039101/bdc06885-cb06-4e5e-926c-044edfa60303](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/3e6b98d6-8e26-40c0-9985-1db2cecbd57e)
 
+**Location Path**: `2 - Introduccion a UIKit/Apple pie`
+
 # PersonalityQuest
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/78a1665a-8906-4135-b1eb-cbc0c436b2c0
+
+**Location Path**: `3 - Navegacion y flujos de trabajo/PersonalityQuiz`
 
 
 
