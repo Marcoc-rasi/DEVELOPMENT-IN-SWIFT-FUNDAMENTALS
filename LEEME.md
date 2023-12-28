@@ -9,6 +9,8 @@ Todos los ejercicios corresponden al libro "Desarrollo con Swift: fundamentos"
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/a5f07487-6bee-4099-bf10-9c25ab2407b2
 
+**Location Path**: `2 - Introduccion a UIKit/Apple pie`
+
 # Apple Pie
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/3e6b98d6-8e26-40c0-9985-1db2cecbd57e
@@ -17,5 +19,6 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/510391
 
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/7d73cd4a-fc47-413c-922f-cbd21da91375
 
+**Location Path**: `3 - Navegacion y flujos de trabajo/PersonalityQuiz`
 
 
