@@ -32,10 +32,56 @@ En esta commit, darás un paso más allá. Aprenderás acerca de `estructuras`, 
 - **Controles en acción**
 - **Auto Layout y vistas de pila**
 
-## Proyecto a Desarrollar
+# `Aplicaciones Destacadas`
 
-**Apple Pie**: Un sencillo juego de adivinación de palabras. El usuario debe adivinar una palabra, letra por letra, antes de que todas las manzanas caigan del manzano. Si quedan manzanas, el usuario gana y puede disfrutar de un delicioso pastel de manzana.
+## Proyecto Guiado - `Apple Pie`
 
-# Apple Pie
+Esta aplicación se trata de un juego simple de adivinanza de palabras, donde cada jugador dispone de un número limitado de intentos para adivinar las letras de una palabra específica. Con cada respuesta incorrecta, una manzana se desprende de un árbol virtual. El objetivo del jugador es ganar adivinando la palabra correctamente antes de que todas las manzanas hayan caído del árbol.
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/67ae0c26-d84f-4254-b984-9915da5cc60f
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/90803d6e-b918-4cf8-ab7f-9218fd1a1cae
+
+# `Unidad 2 - Introducción a UIKit`
+
+## `Lección 2.8 - Presentación de Datos`
+
+### `Pasatiempos` - Laboratorio
+
+Esta aplicación te permite crear tutoriales sobre tus pasatiempos favoritos. Utiliza Interface Builder para configurar vistas con imágenes y texto relevante.
+
+![2 8 Lab Pasatiempos](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/129a6470-58e5-4530-8417-e38d90d3003d)
+
+### `Hola` - Aplicación de Lección
+
+Esta aplicación te permite agregar tu nombre, una imagen de perfil y algunas frases personales como parte de tu perfil.
+
+![2 8 Lesson Hello](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/9f796796-8aef-469e-b948-e4aa5f6d6f89)
+
+## `Lección 2.9. - Controles en Acción`
+
+### `TwoButtons` - Laboratorio
+
+Esta app tiene como objetivo la creación y compilación de dos botones que, al ser presionados, modifican el contenido de una etiqueta, proporcionando así una interacción básica con el usuario.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/00f5c713-b379-4f57-b344-4717ccca7d4c
+
+### `Common_imput_controls` - Aplicación de Lección
+
+Esta app iOS responde a acciones del usuario, como tocar botones o ajustar controles. Al hacerlo, muestra mensajes informativos en la consola sobre el estado del interruptor, el valor del deslizador y otros eventos de la interfaz.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/19b3fb47-338b-4df3-aaca-9ff679755d42
+
+## `Lección 2.10 - Autolayout y Vistas de Pila`
+
+### `Calculadora` - Laboratorio
+
+El objetivo de esta app es emplear Auto Layout para diseñar una vista adaptable al tamaño y diseño de cualquier pantalla. Se utilizarán objetos de vista, restricciones y vistas de pila para crear una calculadora simple que conserve su diseño en todos los tamaños de dispositivo.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/2bafd5e9-c058-4f31-baa0-78e49f27574f
+
+### `AutoLayoutPractice` - Aplicación de Lección
+
+El objetivo de esta app es utilizar Auto Layout  en 5 etiquetas para diseñar una vista adaptable al tamaño, horientación y diseño de cualquier pantalla.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/2d31e3e0-c005-48b6-b75d-0a6d5ce09d54
+
+
