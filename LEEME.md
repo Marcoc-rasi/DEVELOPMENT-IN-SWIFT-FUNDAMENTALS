@@ -63,11 +63,13 @@ Esta aplicación te permite agregar tu nombre, una imagen de perfil y algunas fr
 
 Esta app tiene como objetivo la creación y compilación de dos botones que, al ser presionados, modifican el contenido de una etiqueta, proporcionando así una interacción básica con el usuario.
 
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/00f5c713-b379-4f57-b344-4717ccca7d4c
+
 ### `Common_imput_controls` - Aplicación de Lección
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/19b3fb47-338b-4df3-aaca-9ff679755d42
-
 Esta app iOS responde a acciones del usuario, como tocar botones o ajustar controles. Al hacerlo, muestra mensajes informativos en la consola sobre el estado del interruptor, el valor del deslizador y otros eventos de la interfaz.
+
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/19b3fb47-338b-4df3-aaca-9ff679755d42
 
 ## `Lección 2.10 - Autolayout y Vistas de Pila`
 
