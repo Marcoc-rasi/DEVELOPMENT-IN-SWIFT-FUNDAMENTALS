@@ -89,9 +89,9 @@ https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/510391
 
 Esta aplicación se trata de un juego simple de adivinanza de palabras, donde cada jugador dispone de un número limitado de intentos para adivinar las letras de una palabra específica. Con cada respuesta incorrecta, una manzana se desprende de un árbol virtual. El objetivo del jugador es ganar adivinando la palabra correctamente antes de que todas las manzanas hayan caído del árbol.
 
-# `Unidad 3 - Navegación y flujos de trabajo`
-
 https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/90803d6e-b918-4cf8-ab7f-9218fd1a1cae
+
+# `Unidad 3 - Navegación y flujos de trabajo`
 
 ## `Lección 3.6 - Controladores de navegación y transiciones`
 
