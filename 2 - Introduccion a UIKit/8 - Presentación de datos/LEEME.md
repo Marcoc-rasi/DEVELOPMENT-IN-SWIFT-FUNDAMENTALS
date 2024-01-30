@@ -27,13 +27,13 @@ En esta lección, utilizarás Interface Builder para dar los primeros pasos en l
 
 # Hola
 
-![2 5-Hola](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/65eaf4cb-42d5-4737-8b57-7c8e86bb4e90)
+![2 8 Lesson Hello](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/a7d1651c-93b4-4f20-993e-419f4786bc24)
 
 Se ha creado una aplicación llamada "MiAppHola" usando Xcode. Esta aplicación presenta una interfaz de usuario que consta de etiquetas de texto y una imagen de Rick y Morty. Las etiquetas de texto se utilizaron para mostrar información personal como el nombre y una breve descripción. La apariencia de los elementos de la interfaz, incluidos el tamaño y los colores de la fuente, se personalizó según las preferencias.
 
 #Pasatiempos
 
-![2 6-Pasatiempos](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/fefc5ed2-8e39-4e35-9a16-ff382cc0f681)
+![2 8 Lab Pasatiempos](https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/dd1ac667-e2d6-49e1-8c81-012a9b1b721d)
 
 Se ha creado una aplicación que muestra el pasatiempo de ver la serie "Rick and Morty". Dentro de la aplicación, se presentan seis imágenes de la serie junto con etiquetas descriptivas que explican los motivos de su atractivo. El diseño de la interfaz es atractivo y está diseñado para reflejar el entusiasmo del creador por la serie. El propósito de la aplicación es compartir el amor por "Rick and Morty" y brindar una breve introducción a la serie para otros fanáticos o nuevos seguidores potenciales.
 
