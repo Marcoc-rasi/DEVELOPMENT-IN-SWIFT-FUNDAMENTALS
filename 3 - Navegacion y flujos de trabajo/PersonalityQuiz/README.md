@@ -13,7 +13,7 @@ This guided project will use the quiz theme: "What animal are you?". The four po
 
 # PersonalityQuest
 
-https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/c9618646-0d73-4582-9498-704f9d8c8967
+https://github.com/Marcoc-rasi/DEVELOPMENT-WITH-SWIFT-FUNDAMENTALS/assets/51039101/e7290b8b-6aa1-4e3e-9815-cd63777fa0f7
 
 The "PersonalityQuiz" project is an iOS application composed of three main view controllers: `IntroductionViewController`, `QuestionViewController`, and `ResultsViewController`. The primary purpose of the application is to conduct a personality quiz and determine a personality type based on the user's responses.
 
